@@ -2,6 +2,31 @@
 public class MyCls {
 	private int val;
 	private String name;
+	private String firstName;
+	
+	/**
+	 * @param val
+	 * @param name
+	 * @param firstName
+	 */
+	public MyCls(int val, String name, String firstName) {
+		super();
+		this.val = val;
+		this.name = name;
+		this.firstName = firstName;
+	}
+	/**
+	 * @return the firstName
+	 */
+	public String getFirstName() {
+		return firstName;
+	}
+	/**
+	 * @param firstName the firstName to set
+	 */
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
 	/**
 	 * @return the val
 	 */
