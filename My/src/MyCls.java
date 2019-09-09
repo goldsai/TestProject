@@ -3,7 +3,20 @@ public class MyCls {
 	private int val;
 	private String name;
 	private String firstName;
+	private String client;
 	
+	/**
+	 * @return the client
+	 */
+	public String getClient() {
+		return client;
+	}
+	/**
+	 * @param client the client to set
+	 */
+	public void setClient(String client) {
+		this.client = client;
+	}
 	/**
 	 * @param val
 	 * @param name
