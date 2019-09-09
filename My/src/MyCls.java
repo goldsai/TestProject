@@ -1,5 +1,9 @@
 import client.ClsClient;
+<<<<<<< HEAD
 
+=======
+import httpClientV2.*;
+>>>>>>> refs/heads/feature_add_client
 public class MyCls {
 	private int val;
 	private String name;
@@ -72,6 +76,18 @@ public class MyCls {
 		//super();
 		this.val = val;
 		this.name = name;
+	}
+	/**
+	 * @return the server
+	 */
+	public ServerV2 getServer() {
+		return server;
+	}
+	/**
+	 * @param server the server to set
+	 */
+	public void setServer(ServerV2 server) {
+		this.server = server;
 	}
 	
 }
