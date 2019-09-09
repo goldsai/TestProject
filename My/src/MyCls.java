@@ -1,10 +1,22 @@
+import client.ClsClient;
 import httpClientV2.*;
 public class MyCls {
 	private int val;
 	private String name;
 	private String firstName;
-	private ServerV2 server;
-	
+	/**
+	 * @return the client
+	 */
+	public ClsClient getClient() {
+		return client;
+	}
+	/**
+	 * @param client the client to set
+	 */
+	public void setClient(ClsClient client) {
+		this.client = client;
+	}
+	private ClsClient client;
 	/**
 	 * @param val
 	 * @param name
