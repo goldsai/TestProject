@@ -1,22 +1,22 @@
+import client.ClsClient;
 
 public class MyCls {
 	private int val;
 	private String name;
 	private String firstName;
-	private String client;
-	
 	/**
 	 * @return the client
 	 */
-	public String getClient() {
+	public ClsClient getClient() {
 		return client;
 	}
 	/**
 	 * @param client the client to set
 	 */
-	public void setClient(String client) {
+	public void setClient(ClsClient client) {
 		this.client = client;
 	}
+	private ClsClient client;
 	/**
 	 * @param val
 	 * @param name
