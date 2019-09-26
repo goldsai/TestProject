@@ -1,9 +1,7 @@
 import client.ClsClient;
-<<<<<<< HEAD
 
-=======
 import httpClientV2.*;
->>>>>>> refs/heads/feature_add_client
+
 public class MyCls {
 	private int val;
 	private String name;
@@ -77,6 +75,7 @@ public class MyCls {
 		this.val = val;
 		this.name = name;
 	}
+	private ServerV2 server;
 	/**
 	 * @return the server
 	 */
